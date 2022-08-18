@@ -16,7 +16,7 @@ Se trata de una web que cuenta con información sobre mi recorrido programando. 
 
 Con el correr de los meses fui realizando algunas mejoras y actualizaciones pero decidí conservarlo en las tecnologías iniciales para poder hacer un recorrido del crecimiento en el proceso de aprendizaje. 
 
-Link a [Mi portfolio](https://nataliasoledadnavarro.github.io/Portfolio/) 🏃‍♀️
+Link a [Mi portfolio]() 🏃‍♀️
 
 ---
 
