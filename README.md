@@ -16,13 +16,8 @@ Se trata de una web que cuenta con información sobre mi recorrido programando. 
 
 Con el correr de los meses fui realizando algunas mejoras y actualizaciones pero decidí conservarlo en las tecnologías iniciales para poder hacer un recorrido del crecimiento en el proceso de aprendizaje. 
 
-<<<<<<< HEAD
-Link a [Mi portfolio](https://darika-valdez.vercel.app/) 🏃‍♀️
-=======
-Link a [Mi portfolio]() 🏃‍♀️
->>>>>>> d5bdc680a181f68ed6f187b378ef4795d1f37928
 
----
+Link a [Mi portfolio](https://darika-valdez.vercel.app/) 🏃‍♀️
 
 #### Podrás ver:
 
@@ -38,7 +33,7 @@ Link a [Mi portfolio]() 🏃‍♀️
 
 ---
 
-### Me encuentro en busqueda activa laboral, idealmente, en un equipo de trabajo desarrollando React.js.
+### Me encuentro en busqueda activa laboral, idealmente, en un equipo de trabajo en Front End.
 
 **💗¡Gracias por tu visita!💗**
 
