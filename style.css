@@ -57,7 +57,6 @@ nav ul {
   color: #dd609b;
 }
 
-
 .link-contacto-nav a:hover {
   background-color: #4c3f54;
   color: rgb(255, 255, 255);
@@ -104,7 +103,7 @@ aside ul {
 }
 
 .li-oculto {
-  margin-bottom: 40px;
+  margin-bottom: 21px;
 }
 
 /*//////ESTILOS DEL MAIN///////*/
@@ -1278,14 +1277,19 @@ a {
   }
   aside {
     width: 121px;
-    height: 25%;
+    height: 20%;
     background-color: white;
     position: fixed;
     top: 0px;
-    right: 0px;
+    left: 0px;
     overflow: hidden;
   }
-  
+  .desarrollo > h2 {
+    margin-left: 12%;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -8%;
+  }
   .dibujo{
     /* margin-left: -30%; */
     width: 100%;
@@ -1305,15 +1309,15 @@ a {
   }
   .img {
     width: 20%;
-    margin-top:-14%;
-    margin-left: 1%;
+    margin-top:-12%;
+    margin-left: 15%;
     animation: rotationAnimation 1s infinite;
   }
   .img2 {
     width: 20%;
-    float:left;
-    margin-top: -10%;
-    margin-right: -35%;
+    float:none;
+    margin-top: 10%;
+    margin-left: 73%;
     border-right-width: 20%;
   }
   .img3 {
@@ -1327,7 +1331,7 @@ a {
     flex-direction: column;
     float:left;
     width: 100%;
-    margin-top: 46%;
+    margin-top: 25%;
     padding-block-end: 10%;
   }
   .texto-presentacion > h2 {
@@ -1372,11 +1376,12 @@ a {
     margin-top: -30%;
   }
   .imagen-dari {
-    width: 93%;
-    height: 43%;
+    width: 65%;
+    height: 30%;
     border-radius: 50%;
 }
   .contenido-conocimientos {
+    margin-left: 10%;
     width: 100%;
   }
 
@@ -1384,7 +1389,6 @@ a {
     width: 180px;
     height: 180px;
   }
-
 
   .lenguajes .proximamente {
     font-size: 18px;
