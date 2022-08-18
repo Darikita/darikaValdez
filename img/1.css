@@ -11,19 +11,6 @@ body {
 /*////ESTILOS MODO OSCURO////*/
 
 /*//////ESTILOS DEL NAV///////*/
-.modo-oscuro {
-  /* width: 70px;
-  height: 30px;
-  border-radius: 40px;
-  border: solid 1px #fd68688e; */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position:absolute;
-  /* top: 20px;
-  left: 20px;
-  z-index: 1; */
-}
 .nav-superior {
   width: 100%;
   height: 80px;
@@ -63,8 +50,6 @@ nav ul {
   color: rgb(255, 255, 255);
 }
 .nav-oculto {
-  
-  background-color: #ffcde1;
   display: none;
 }
 /*//// ESTILOS ASIDE OCULTO////*/
@@ -80,8 +65,6 @@ aside {
 }
 
 .aside-oculto {
-  margin-top: -5%;
-  background-color: #ffcde1;
   width: 0px;
 }
 .fa-window-close {
@@ -329,6 +312,7 @@ main {
 
 
 .nodejs {
+  
   width: 80px;
   height: 80px;
   animation: latidos 1s infinite;
@@ -339,6 +323,7 @@ main {
   50% { transform: scale(1.05); }
   to { transform: none; }
 }
+
 
 .fa-html5 {
   color: orangered;
@@ -363,6 +348,8 @@ main {
   50% { transform: scale(1.05); }
   to { transform: none; }
 }
+
+
 
 .fa-sass {
   color: fuchsia;
@@ -1089,8 +1076,8 @@ a {
 
   /*////// RESPONSIVE SECCIÓN PRESENTACIÓN///////*/
   .dibujo{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     background-image: url('./img/portfoliodari3.png');
     background-size: 100%;
     background-attachment:fixed;
@@ -1268,114 +1255,7 @@ a {
 }
 @media screen and (max-width: 550px) {
   /*////// RESPONSIVE SECCIÓN CONOCIMIENTOS///////*/
-  main {
-    background-color:  #ffeae9;
-    background-size: 100%;
-    display:block;
-    flex-direction: column;
-    align-items:center;
-    margin: 0;
-  }
-  aside {
-    width: 121px;
-    height: 25%;
-    background-color: white;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    overflow: hidden;
-  }
-  
-  .dibujo{
-    /* margin-left: -30%; */
-    width: 100%;
-    height: 80%;
-    background-image: url('./img/portfoliodari4.png');
-    /* background-size: 50%; */
-    background-repeat: no-repeat;
-    /* background-attachment: fixed;  */
-  }
-  .nubes{
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
-    align-content: flex-end;
-  }
-  .img {
-    width: 20%;
-    margin-top:-14%;
-    margin-left: 1%;
-    animation: rotationAnimation 1s infinite;
-  }
-  .img2 {
-    width: 20%;
-    float:left;
-    margin-top: -10%;
-    margin-right: -35%;
-    border-right-width: 20%;
-  }
-  .img3 {
-    width: 20%;
-    margin-top:4%;
-    margin-left: 48%;
-    animation: rotationAnimation 1s infinite;
-  }
-  .texto {
-    display: flex;
-    flex-direction: column;
-    float:left;
-    width: 100%;
-    margin-top: 46%;
-    padding-block-end: 10%;
-  }
-  .texto-presentacion > h2 {
-    margin-left: 1%;
-    width: 100%;
-    color:#4c3f54;
-    font-size: 2rem;
-  margin-top: -3%;
-  }
-  
-  .texto-presentacion > h1 {
-    width: 100%;
-    font-size: 2.8rem;
-    margin-top: -1%;
-    margin-left: 1%;
-    color: #dd609b;
-  
-  }
-  
-  .texto-presentacion > p {
-    width: 100%;
-    color:#4c3f54;
-    margin-left: 1%;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: -2%;
-  
-  }
-  .carousel__content {
-    max-width: 300px;
-    margin: 0 auto;
-    position: relative;
-  }
 
-  .cita {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-size: 1.8rem;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: -30%;
-  }
-  .imagen-dari {
-    width: 93%;
-    height: 43%;
-    border-radius: 50%;
-}
   .contenido-conocimientos {
     width: 100%;
   }
@@ -1383,19 +1263,6 @@ a {
   .lenguajes {
     width: 180px;
     height: 180px;
-  }
-
-
-  .lenguajes .proximamente {
-    font-size: 18px;
-  }
-
-  .bulma,
-  .scrum,
-  .nodejs {
-    width: 85px;
-    height: 85px;
-    margin-bottom: 0;
   }
 
   /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
