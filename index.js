@@ -15,8 +15,7 @@ const botonCerrarProyectosPersonales = document.querySelector(
   "#cerrar-proyectos-personales"
 );
 
-const carouselItem = document.querySelector(".carousel");
-const webhook = document.querySelector(".webhook");
+
 
 iconoHamburguesa.onclick = () => {
   panelAside.classList.remove("aside-oculto");
@@ -26,21 +25,7 @@ iconoCruzNav.onclick = () => {
   panelAside.classList.add("aside-oculto");
 };
 
-iconoLuna.onclick = () => {
-  body.classList.add("oscuro");
-};
 
-iconoSol.onclick = () => {
-  body.classList.remove("oscuro");
-};
-
-tarjetaProyectosPersonales.onclick = () => {
-  modalProyectosPersonales.style.display = "flex";
-};
-
-botonCerrarProyectosPersonales.onclick = () => {
-  modalProyectosPersonales.style.display = "none";
-};
 
 const config = {
   autoload: true,
