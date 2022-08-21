@@ -1,3 +1,5 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 * {
   box-sizing: border-box;
 }
@@ -59,7 +61,7 @@ nav ul {
 
 .link-contacto-nav a:hover {
   background-color: #4c3f54;
-  color: rgb(255, 255, 255);
+  color: #dd609b;
 }
 .nav-oculto {
   
@@ -142,6 +144,9 @@ main {
   margin-top: -6%;
   padding-block-end: 10%;
 
+}
+.texto-presentacion {
+  margin-left: 2%;
 }
 
 .texto-presentacion > h2 {
@@ -452,7 +457,7 @@ main {
   width: 100%;
   font-size: 2.8rem;
   margin-top: 0%;
-  margin-left: 1%;
+  margin-left: 4%;
   color: #4c3f54;
 
 }
@@ -473,14 +478,119 @@ main {
   margin-bottom: 0px;
   margin-top: 50px;
 }
-
+figure.snip1218 {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  background:#dd609b;
+  color:#4c3f54;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+}
+figure.snip1218 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1218 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+figure.snip1218 .image {
+  position: relative;
+  border-bottom: 4px solid#dd609b;
+  z-index: 1;
+}
+figure.snip1218 .image:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 20px;
+  border-color: #4c3f54 transparent transparent transparent;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -15px);
+  transform: translate(-50%, -15px);
+  z-index: -1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1218 .image p {
+  font-weight: 500;
+  margin: 0;
+  padding: 0 30px;
+  line-height: 1.6em;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #ffffff;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 0;
+  font-style: italic;
+}
+figure.snip1218 figcaption {
+  background-color: #ffffff;
+  padding: 25px;
+}
+figure.snip1218 h3 {
+  margin: 0 0 5px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+figure.snip1218 h3 span {
+  font-weight: 800;
+}
+figure.snip1218 h5 {
+  margin: 0 0 15px;
+  font-weight: 400;
+}
+figure.snip1218 i {
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 24px;
+  color: #dd609b;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+figure.snip1218 i:hover {
+  background-color: #4c3f54;
+  color: white !important;
+}
+figure.snip1218:hover .image:before,
+figure.snip1218.hover .image:before {
+  border-color: #4c3f54 transparent transparent transparent;
+  -webkit-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+figure.snip1218:hover .image p,
+figure.snip1218.hover .image p {
+  opacity: 1;
+}
+figure.snip1218:hover img,
+figure.snip1218.hover img {
+  opacity: 0.2;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 /*//////ESTILOS SECCIÓN PROYECTOS///////*/
 .carousel__wrapper {
-  margin-left: 2.5%;
+  margin-left: 0%;
   padding: 10px;
 }
 .carousel__content {
-  max-width: 1350px;
+  max-width: 1365px;
   margin: 0 auto;
   position: relative;
 }
@@ -496,9 +606,9 @@ main {
 .carousel__container::-webkit-scrollbar {
   display: none;
 }
-.carousel__slide {
+/* .carousel__slide {
   min-width: 90%;
-}
+} */
 .card__description {
   display: flex;
   column-gap: 10px;
@@ -553,7 +663,7 @@ main {
   color: #fff;
 }
 .arrow.arrow--right {
-  right: 0%;
+  right: -1%;
 }
 .arrow.arrow--left {
   left: -1.5%;
@@ -1037,7 +1147,7 @@ footer {
 }
 
 footer p {
-  color: black;
+  color: #4c3f54;
   font-size: 1rem;
   margin-top: 30px;
 }
@@ -1342,19 +1452,20 @@ a {
     margin-top: 25%;
     padding-block-end: 10%;
   }
+
   .texto-presentacion > h2 {
-    margin-left: 1%;
+    margin-left: -5%;
     width: 100%;
     color:#4c3f54;
     font-size: 2rem;
-  margin-top: -3%;
+   margin-top: -1%;
   }
   
   .texto-presentacion > h1 {
     width: 100%;
     font-size: 2.8rem;
     margin-top: -1%;
-    margin-left: 1%;
+    margin-left: -1%;
     color: #dd609b;
   
   }
@@ -1362,14 +1473,14 @@ a {
   .texto-presentacion > p {
     width: 100%;
     color:#4c3f54;
-    margin-left: 1%;
+    margin-left: -1%;
     font-size: 1rem;
     font-weight: 400;
     margin-top: -2%;
   
   }
   .carousel__content {
-    max-width: 300px;
+    max-width: 330px;
     margin: 0 auto;
     position: relative;
   }
@@ -1413,7 +1524,7 @@ a {
   /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
   .carousel__container {
     width: 100%;
-    gap: 40px;
+    gap: 15px;
 }
 
   .tarjeta-proyectos {
