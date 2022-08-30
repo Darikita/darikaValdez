@@ -34,7 +34,7 @@ iconoCruzNav.onclick = () => {
 const config = {
   autoload: true,
   itemsToBeVisible: 4,
-  speed: 5000
+  speed: 4000
 };
 
 /*-------------------
