@@ -31,10 +31,11 @@ iconoCruzNav.onclick = () => {
 
 
 
+/* Una constante que se utiliza para configurar el carrusel. */
 const config = {
   autoload: true,
   itemsToBeVisible: 4,
-  speed: 4000
+  speed: 6000
 };
 
 /*-------------------
@@ -106,6 +107,16 @@ function getNewScrollPosition(position, slideContainerEl, slideWidth, config) {
 /*-------------------------------
   Autoplay
   ---------------------------------*/
+/**
+ * It clicks the next button every X milliseconds
+ * @param nextButton - The button that will be clicked to move to the next slide.
+ * @param config - an object with the following properties:
+ */
+/**
+ * Hace clic en el siguiente botón cada X milisegundos
+ * @param nextButton - El botón en el que se hará clic para pasar a la siguiente diapositiva.
+ * @param config - un objeto con las siguientes propiedades:
+ */
 function playCarousel(nextButton, config) {
   const play = () => {
     nextButton.click();

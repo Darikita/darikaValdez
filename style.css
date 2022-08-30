@@ -1614,7 +1614,7 @@ a {
     margin-top:-1%;
     /* margin-left: -30%; */
     width: 100%;
-    height: 90%;
+    height: 55rem;
     background-image: url('./img/portfoliodari4.png');
     /* background-size: 50%; */
     background-repeat: no-repeat;
@@ -1715,8 +1715,8 @@ a {
   }
 
   .conocimientos {
-    margin-top: -60%;
-    height: 250%;
+    margin-top: -70%;
+    height: 135rem;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -1726,15 +1726,15 @@ a {
   }
 
   .lenguajes {
-    width: 180px;
-    height: 180px;
+    width: 19rem;
+    height: 14rem;
   }
 
   .lenguajes .proximamente {
     font-size: 18px;
   }
 
-  .bulma,
+
   .scrum,
   .nodejs {
     width: 85px;
