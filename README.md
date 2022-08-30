@@ -14,7 +14,7 @@ Se trata de una web que cuenta con información sobre mi recorrido programando. 
 
 • Git
 
-Con el correr de los meses fui realizando algunas mejoras y actualizaciones pero decidí conservarlo en las tecnologías iniciales para poder hacer un recorrido del crecimiento en el proceso de aprendizaje. 
+Fui realizando algunas mejoras y actualizaciones pero decidí conservarlo en las tecnologías iniciales para poder hacer un recorrido del crecimiento en el proceso de aprendizaje. 
 
 
 Link a [Mi portfolio](https://darika-valdez.vercel.app/) 🏃‍♀️
@@ -23,7 +23,7 @@ Link a [Mi portfolio](https://darika-valdez.vercel.app/) 🏃‍♀️
 
 • Herramientas y aprendizajes incorporados.
 
-• Proyectos solicitados durante la cursada en Henry.
+• Proyectos realizados durante el bootcamp en Henry.
 
 • Proyectos personales.
 
