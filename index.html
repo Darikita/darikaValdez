@@ -358,14 +358,14 @@
         <div class="nombre-y-apellido">
           <label for="nombre">
             Nombre*
-            <input type="text" name="nombre" id="nombre" placeholder="p. ej.: Dárika" aria-label="Escribir nombre aquí"
+            <input type="text" name="nombre" id="nombre" placeholder="ej.: Dárika" aria-label="Escribir nombre aquí"
               required />
 
           </label>
 
           <label for="apellido">
             Apellido*
-            <input type="text" name="apellido" id="apellido" placeholder="p. ej.: Valdez"
+            <input type="text" name="apellido" id="apellido" placeholder="ej.: Valdez"
               aria-label="Escribir apellido aquí" required />
           </label>
 
@@ -373,7 +373,7 @@
 
         <label for="email">
           Email*
-          <input type="email" name="email" id="email" placeholder="p. ej.: tunombre@gmail.com"
+          <input type="email" name="email" id="email" placeholder="ej.: tunombre@gmail.com"
             aria-label="Introducir e-mail" required />
 
         </label>
@@ -384,11 +384,15 @@
             aria-label="Introducir mensaje aquí" required></textarea>
 
         </label>
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" onclick="hizoClick()"/>
         <input type="hidden" name="_next" value="https://darika-valdez.vercel.app/">
         <input type="hidden" name="_captcha" value="false">
         <!--https://formsubmit.co/-->
-
+        <script>
+          function hizoClick() {
+            alert("🔔Mensaje Enviado");
+          }
+          </script>
       </form>
     </section>
 
