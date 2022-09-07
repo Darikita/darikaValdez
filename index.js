@@ -14,12 +14,6 @@ const body = document.querySelector("body");
 const botonCerrarProyectosPersonales = document.querySelector(
   "#cerrar-proyectos-personales"
 );
-// $(".hover").mouseleave(
-//   function () {
-//     $(this).removeClass("hover");
-//   }
-// );
-
 
 iconoHamburguesa.onclick = () => {
   panelAside.classList.remove("aside-oculto");
