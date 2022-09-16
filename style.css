@@ -460,7 +460,30 @@ color: #4c3f54;
   50% { transform: scale(1.05); }
   to { transform: none; }
 }
-
+.tail {
+  width: 95px;
+  height: 95px;
+  animation: latidos 1s infinite;
+	transform-origin: center;
+}
+@keyframes latidos {
+  from { transform: none; }
+  50% { transform: scale(1.05); }
+  to { transform: none; }
+}
+.vite {
+  width: 70px;
+  height: 65px;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  animation: latidos 1s infinite;
+	transform-origin: center;
+}
+@keyframes latidos {
+  from { transform: none; }
+  50% { transform: scale(1.05); }
+  to { transform: none; }
+}
 .fa-html5 {
   color: orangered;
   margin-top: 10%;
@@ -1719,7 +1742,7 @@ a {
 
   .conocimientos {
     margin-top: -70%;
-    height: 150rem;
+    height: 180rem;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -1733,6 +1756,11 @@ a {
     height: 14rem;
   }
 
+  /* .tail{
+    width: 90px;
+    height:90px;
+    margin-bottom: 0;
+  } */
   .lenguajes .proximamente {
     font-size: 18px;
   }
@@ -1747,6 +1775,7 @@ a {
     height: 85px;
     margin-bottom: 0;
   }
+
 
   /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
   .carousel__container {
