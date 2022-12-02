@@ -1004,13 +1004,13 @@ figure.snip0056.hover > img {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   margin-top: 40px;
   background-color: #fc60a0;
 }
 .proyecto-texto {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1780,7 +1780,7 @@ a {
   /*////// RESPONSIVE SECCIÓN PROYECTOS///////*/
   .carousel__container {
     width: 100%;
-    gap: 15px;
+    gap: 25px;
 }
 
   .tarjeta-proyectos {
