@@ -727,11 +727,12 @@ figure.snip1218.hover img {
   margin-top: -4%;
 }
 .carousel__content {
-  max-width: 95%;
+  max-width: 96%;
   margin: 0 auto;
   position: relative;
 }
 .carousel__container {
+  gap:35px;
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
@@ -874,7 +875,7 @@ figure.snip0056.hover > img {
   color: #fff;
 }
 .arrow.arrow--right {
-  right: -1%;
+  right: -3%;
 }
 .arrow.arrow--left {
   left: -1.5%;
